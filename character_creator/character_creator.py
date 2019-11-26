@@ -159,7 +159,7 @@ class Character:
         print("Charisma = "+str(self.Charisma))
 
 
-adam = Character("Adam", "pig")
+adam = Character("Adam", "idiot")
 adam.assign()
 adam.declare()
 
