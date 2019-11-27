@@ -1,4 +1,3 @@
-import requests as req
 import random as random
 
 # Character Creator for DND style games. Character Creation rolls are set to 5E standards.
