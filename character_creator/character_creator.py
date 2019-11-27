@@ -146,6 +146,10 @@ class Character:
         self.Wisdom = 0
         self.Charisma = 0
         self.std_set = input("Would you like to use the standard set for stat creation? Y or N   ")
+        if self.std_set != "Y" and self.std_set != "N":
+            print("Did not receive valid response regarding standard stats. Proceeding without them.")
+            print("(In the future, please enter Y or N)")
+            self.std_set = "N"
         self.assign()
 
     # Write a requester for a namegen API, or develop namegen constructor later.
