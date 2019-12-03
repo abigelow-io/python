@@ -12,3 +12,5 @@ try:
     answer2_str = str(answer2)
 except ValueError:
     print("You didn't provide a string")
+
+var1 = 10
